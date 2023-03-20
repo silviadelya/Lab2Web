@@ -5,7 +5,7 @@
 * Membuat folder baru dengan nama **lab2_php_dasar** pada root directory web server (htdocs)  
 * Untuk mengakses directory tersebut pada web server dengan mengakses URL : http://localhost/lab2_php_dasar/
 * Buat file baru dengan nama **php_dasar.php** pada folder **lab2_php_dasar** 
-* Kemudian ketikan kode berikut ini di dalam file php_dasar.php :
+* Kemudian ketikan kode berikut ini di dalam file **php_dasar.php** :
 
 ```html
     <!DOCTYPE html> 
@@ -27,7 +27,8 @@
 
 ![Gambar 1](screenshot/1.png)
 
-### Variable PHP
+
+## A. Variable PHP
 
 Menambahkan variable pada program. Biasanya diawali dengan ;
 * Karakter **$**
@@ -35,22 +36,23 @@ Menambahkan variable pada program. Biasanya diawali dengan ;
 * Setelah karakter **$**, harus diikuti karakter huruf atau underscore
 * Case sensitive.
 
-1. Ketikan kode berikut ini :
+    1. Ketikan kode berikut ini :
 
-```html
-    <?php 
-    $nim = "123456"; 
-    $nama = 'Silvia Delya'; 
-    echo "NIM : " . $nim . "<br>"; 
-    echo "Nama : $nama"; 
-    ?>
-```
+        ```html
+            <?php 
+            $nim = "123456"; 
+            $nama = 'Silvia Delya'; 
+            echo "NIM : " . $nim . "<br>"; 
+            echo "Nama : $nama"; 
+            ?>
+        ```
 
-2. Outputnya akan seperti berikut :
+    2. Outputnya akan seperti berikut :
 
-![Gambar 2](screenshot/2.png)
+        ![Gambar 2](screenshot/2.png)
 
-### Predefine Variable $_GET
+
+## B. Predefine Variable $_GET
 
 Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
@@ -62,15 +64,16 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
     ?>
 ```
 
-* Untuk mengaksesnya gunakan URL : http://localhost/lab2_php_dasar/latihan2.php?nama=Silvia 
+    * Untuk mengaksesnya gunakan URL : http://localhost lab2_php_dasar/latihan2.php?nama=Silvia 
 
-* Untuk nama file menyesuaikan. 
+    * Untuk nama file menyesuaikan. 
 
 2. Outputnya akan seperti berikut :
 
 ![Gambar 3](screenshot/3.png)
 
-### Membuat Form Input
+
+## C. Membuat Form Input
 
 1. Ketikan kode berikut ini :
 
@@ -99,7 +102,8 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 ![Gambar 4](screenshot/4.png)
 
-### Operator
+
+## D. Operator
 
 1. Ketikan kode berikut ini :
 
@@ -117,7 +121,8 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 ![Gambar 5](screenshot/5.png)
 
-### Kondisi If Else ElseIf
+
+## E. Kondisi If Else ElseIf
 
 Struktur If, Else, ElseIf adalah percabangan logika lanjutan dari If. Dengan If, Else, ElseIf, kita bisa membuat kode program untuk menyeleksi berbagai kemungkinan.
 
@@ -139,7 +144,8 @@ Struktur If, Else, ElseIf adalah percabangan logika lanjutan dari If. Dengan If,
 
 ![Gambar 6](screenshot/6.png)
 
-### Kondisi Switch
+
+## F. Kondisi Switch
 
 Struktur switch case adalah percabangan kode program dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. Jika proses perbandingan tersebut menghasilkan true, maka block kode program akan di proses.
 
@@ -167,7 +173,8 @@ Struktur switch case adalah percabangan kode program dimana kita membandingkan i
 
 ![Gambar 7](screenshot/7.png)
 
-### Perulangan For
+
+## G. Perulangan For
 
 Struktur perulangan for adalah instruksi program yang bertujuan untuk mengulang beberapa baris perintah.
 
@@ -191,7 +198,8 @@ Struktur perulangan for adalah instruksi program yang bertujuan untuk mengulang 
 
 ![Gambar 8](screenshot/8.png)
 
-### Perulangan While
+
+## H. Perulangan While
 
 Perulangan while digunakan untuk kondisi dimana banyaknya perulangan yang tidak dapat dipastikan saat penulisan kode program.
 
@@ -212,28 +220,29 @@ Perulangan while digunakan untuk kondisi dimana banyaknya perulangan yang tidak 
 
 ![Gambar 9](screenshot/9.png)
 
-### Perulangan Do While
+
+## I. Perulangan Do While
 
 Perulangan while dan do-while pada dasarnya hampir sama. Perbedaannya terletak pada lokasi pemeriksaan kondisi perulangan. 
 * Dalam struktur while, pemeriksaan kondisi di lakukan di awal, sehingga jika kondisi tidak terpenuhi, maka perulangan tidak akan pernah dijalankan.
 * Namun pada perulangan do while, pemeriksaan kondisi akan dilakukan di akhir, sehingga walaupun kondisi yang diperiksa false, perulangan akan tetap berjalan minimal 1 kali.
 
-1. Ketikan kode berikut ini :
+    1. Ketikan kode berikut ini :
 
-```html
-    <?php 
-    echo "Perulangan 1 sampai 10 <br />"; 
-    $i=1; 
-    do { 
-        echo "Perulangan ke: " . $i . '<br />'; 
-        $i++; 
-    } while ($i<=10); 
-    ?>
-```
+        ```html
+            <?php 
+            echo "Perulangan 1 sampai 10 <br />"; 
+            $i=1; 
+            do { 
+            echo "Perulangan ke: " . $i . '<br />'; 
+            $i++; 
+            } while ($i<=10); 
+            ?>
+        ```
 
-2. Outputnya akan seperti berikut :
+    2. Outputnya akan seperti berikut :
 
-![Gambar 10](screenshot/10.png)
+        ![Gambar 10](screenshot/10.png)
 
 ## Latihan 2
 

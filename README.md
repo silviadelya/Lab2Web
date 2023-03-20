@@ -25,7 +25,7 @@
 
 * Hasilnya akan seperti berikut ini :
 
-![Gambar 1](1.png)
+![Gambar 1](screenshot/1.png)
 
 ### Variable PHP
 
@@ -48,7 +48,7 @@ Menambahkan variable pada program. Biasanya diawali dengan ;
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 2](2.png)
+![Gambar 2](screenshot/2.png)
 
 ### Predefine Variable $_GET
 
@@ -64,11 +64,11 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 * Untuk mengaksesnya gunakan URL : http://localhost/lab2_php_dasar/latihan2.php?nama=Silvia 
 
-* Untuk nama file menyesuaikan 
+* Untuk nama file menyesuaikan. 
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 3](3.png)
+![Gambar 3](screenshot/3.png)
 
 ### Membuat Form Input
 
@@ -97,7 +97,7 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 4](4.png)
+![Gambar 4](screenshot/4.png)
 
 ### Operator
 
@@ -115,9 +115,11 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 5](5.png)
+![Gambar 5](screenshot/5.png)
 
-### Kondisi If
+### Kondisi If Else ElseIf
+
+Struktur If, Else, ElseIf adalah percabangan logika lanjutan dari If. Dengan If, Else, ElseIf, kita bisa membuat kode program untuk menyeleksi berbagai kemungkinan.
 
 1. Ketikan kode berikut ini :
 
@@ -135,9 +137,11 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 6](6.png)
+![Gambar 6](screenshot/6.png)
 
 ### Kondisi Switch
+
+Struktur switch case adalah percabangan kode program dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. Jika proses perbandingan tersebut menghasilkan true, maka block kode program akan di proses.
 
 1. Ketikan kode berikut ini :
 
@@ -161,9 +165,11 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 7](7.png)
+![Gambar 7](screenshot/7.png)
 
 ### Perulangan For
+
+Struktur perulangan for adalah instruksi program yang bertujuan untuk mengulang beberapa baris perintah.
 
 1. Ketikan kode berikut ini :
 
@@ -183,9 +189,11 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 8](8.png)
+![Gambar 8](screenshot/8.png)
 
 ### Perulangan While
+
+Perulangan while digunakan untuk kondisi dimana banyaknya perulangan yang tidak dapat dipastikan saat penulisan kode program.
 
 1. Ketikan kode berikut ini :
 
@@ -202,9 +210,13 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 9](9.png)
+![Gambar 9](screenshot/9.png)
 
-### Perulangan Do while
+### Perulangan Do While
+
+Perulangan while dan do-while pada dasarnya hampir sama. Perbedaannya terletak pada lokasi pemeriksaan kondisi perulangan. 
+* Dalam struktur while, pemeriksaan kondisi di lakukan di awal, sehingga jika kondisi tidak terpenuhi, maka perulangan tidak akan pernah dijalankan.
+* Namun pada perulangan do while, pemeriksaan kondisi akan dilakukan di akhir, sehingga walaupun kondisi yang diperiksa false, perulangan akan tetap berjalan minimal 1 kali.
 
 1. Ketikan kode berikut ini :
 
@@ -221,15 +233,15 @@ Merupakan variable yang dihasilkan oleh query string URL atau melalui http get.
 
 2. Outputnya akan seperti berikut :
 
-![Gambar 10](10.png)
+![Gambar 10](screenshot/10.png)
 
 ## Latihan 2
 
 Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nama, tanggal lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir. Dan pilihan pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
 
-1. Buat file baru dengan nama **index.php** dan **tampil.php**, file index.php digunakan sebagai tampilan utama ketika program dijalankan.
+1. Buat file baru dengan nama **index.php** dan **tampil.php**, file **index.php** digunakan sebagai tampilan utama ketika program dijalankan.
 
-2. Kode program index.php :
+2. Kode program **index.php** :
 
 ```html
     <!DOCTYPE html>
@@ -254,7 +266,7 @@ Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nam
             <tr> 
                 <td>Tanggal Lahir</td> 
                 <td>:</td> 
-                <td><input type="date" name="tgl" placeholder="TanggaL Lahir"></td>
+                <td><input type="date" name="tgl" placeholder="Tanggal Lahir"></td>
             </tr>  
             <tr>
                 <td>Pekerjaan</td> 
@@ -280,7 +292,7 @@ Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nam
 </html>
 ```
 
-3. Kode program tampil.php :
+3. Kode program **tampil.php** :
 
 ```html
     <!DOCTYPE html>
@@ -362,8 +374,8 @@ switch ($kerja) {
 
 4. Outputnya akan seperti berikut :
 
-![Gambar 11](11.png)
+![Gambar 11](screenshot/11.png)
 
-![Gambar 12](12.png)
+![Gambar 12](screenshot/12.png)
 
 ## Terimakasih!
